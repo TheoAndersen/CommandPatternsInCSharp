@@ -31,16 +31,14 @@ namespace _4_CompositeCommand_Is_An_Event
      * 
      */
 
-    public delegate void Command(string input);
-
     public class Program
     {
-        static event Command commandEvent;
+        static event Action<string> commandEvent;
 
         static void Main(string[] args)
         {
-            commandEvent += new Command(WithSpacesCommand);
-            commandEvent += new Command(WithBracketsCommand);
+            commandEvent += new Action<string>(WithSpacesCommand);
+            commandEvent += new Action<string>(WithBracketsCommand);
 
             commandEvent("Spaces?");
 

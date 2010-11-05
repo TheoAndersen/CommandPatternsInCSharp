@@ -13,24 +13,21 @@ namespace _2_A_Delegate_Command
      * The use of a delegate though isnt as easily extended as with an interface
      * 
      */
-
-    public delegate void Command(string input);
-
     public class Program
     {
 
         static void Main(string[] args)
         {
-            WriteSomething("spaces?", new Command(WithSpacesCommand));
+            WriteSomething("spaces?", WithSpacesCommand);
             
-            WriteSomething("brackets?", new Command(WithBracketsCommand));
+            WriteSomething("brackets?", WithBracketsCommand);
 
             Console.ReadKey();
         }
 
-        public static void WriteSomething(string whatToWrite, Command HowToWrite)
+        public static void WriteSomething(string whatToWrite, Action<string> howToWrite)
         {
-            HowToWrite(whatToWrite);
+            howToWrite(whatToWrite);
         }
 
         public static void WithSpacesCommand(string input)

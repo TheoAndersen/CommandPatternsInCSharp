@@ -8,7 +8,7 @@
     <ProjectGuid>{99185611-09CD-4724-B84F-B2712ABBFD0A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DelegateVsInterface</RootNamespace>
+    <RootNamespace>_2_A_Delegate_Command</RootNamespace>
     <AssemblyName>DelegateVsInterface</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>

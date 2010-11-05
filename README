@@ -1,0 +1,13 @@
+This project shows how the command pattern and composite command pattern (from the GoF book) is implemented though delegates and events in c#
+
+1_A_Normal_Command
+ Shows a normal command pattern with a command interface and two derived commands
+
+2_A_Delegate_Command
+ Shows how a delegates encapsulates/abstracts a methods interface so that the called method can be changed
+
+3_A_Composite_Command
+ Shows how the first example can be extended with a compositve, to allow calling a hierachy of commands in one call.
+
+4_CompositeCommand_Is_An_Event
+ Shows how C# contains an implementation of the 3rd example by using events

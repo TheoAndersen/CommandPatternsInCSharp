@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="30d0d3fd-516e-4fef-a70d-957316ab6ca8"
+  name="_3_A_Composite_Command"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0f672aba-99e1-473e-a5bf-62621803303c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace=_3_A_Composite_Command"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="1b348930-4fa0-4dfb-b7f8-aee73e16a304"
+        name="CompositeCommand"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="782972e1-2f0e-4002-b215-0d46683d15f2"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=CompositeCommand"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e1288345-9aa9-423b-9195-37f0b5a67d31"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fdd566b5-780b-4b9c-8fc5-39fdc0f5ef54">
+                <propertyInstance
+                  Id="437ddba3-0010-4d5c-a08c-5727f59e568b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c7de07a-c806-4000-91df-c942835f9929">
+                <propertyInstance
+                  Id="c2749d82-ac7d-44b5-bba8-4b5b8d5c6bc6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="63aaf813-d137-4b0c-8948-1eba457d4066">
+                <propertyInstance
+                  Id="d4b5c15d-257a-4688-8027-ec2774acf365"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="19aeaf95-82b1-4c04-9c65-17565bc154d3">
+                <propertyInstance
+                  Id="53ba3bc2-1b02-4dc4-8b84-6af290097df5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e1f30f43-2804-481b-9385-c6078fbca134">
+                <propertyInstance
+                  Id="e75d63b0-76a9-4bd1-abc0-9b66fe3891e6"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="b8b884d2-a6b9-479a-9854-f817f0d55e88">
+            <interfaceMoniker
+              Id="956aaf8a-fa9b-4f6e-9b24-2f303bcc8fa1"
+              LastKnownName="Command"
+              LastKnownLocation="Package_1209.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="c6de6c46-c64a-4d99-b0d6-8bee9aefea3a"
+            name="commands"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="abc48b9f-21d2-4789-a781-4c26783e7537"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=CompositeCommand Member=commands"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0fee167b-7d78-48d6-90f4-9173686d1ad0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79262f0a-8033-44ed-bcb1-741793ef46f9">
+                    <propertyInstance
+                      Id="2e4f0bf2-2455-4210-ba3a-7e4603b2a4a9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae94b2d2-c17b-4570-8286-a55cb16d6a1a">
+                    <propertyInstance
+                      Id="247a3a40-1a35-421d-9b98-3f37f64f2bdc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c93363f-8f9c-4ddb-878e-72f175b29508">
+                    <propertyInstance
+                      Id="6365e102-4e20-4f7c-8bb5-75a2c10f05c2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31fde6e2-8b21-4a6e-b11b-73446e4e13ad">
+                    <propertyInstance
+                      Id="8ba46f4a-eaaa-4ac8-b673-bb72f6bb4e8d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f130784d-92ab-47e9-8655-fac0da611499">
+                    <propertyInstance
+                      Id="cd11bbc7-dd20-477a-9e80-fb5e49aa6def"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="1edf6833-a716-452b-82fd-8de31c3a16b1"
+                LastKnownName="List&lt;Command&gt;"
+                LastKnownLocation="Package3_1209.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5b8e1f7b-16e7-4a38-8bf5-f846d88a9b89"
+            name="Add"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a2c3fd14-42ea-4b41-9bac-5786e90aecc3"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=CompositeCommand Member=(Name=Add OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Command)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b00b414a-139d-4383-ae65-40b5bd13a0fd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0f5a2c0-dbd5-49a9-8b48-c74a75a01f7b">
+                    <propertyInstance
+                      Id="35cc78e0-b91a-4dc7-8c35-5b07618063a2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75a43a8d-c2d3-472a-8c19-c7c781e6fcb4">
+                    <propertyInstance
+                      Id="d6a911e7-20b7-4515-a12f-ca77a59dfe6a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="36f2476f-29b0-4eaa-9e86-6716389038d7">
+                    <propertyInstance
+                      Id="0030c6d6-bc43-4df2-812c-7d44d6e58502"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61cd2a5c-5f36-494c-82fb-6846edf75149">
+                    <propertyInstance
+                      Id="3ac49407-e313-4166-9488-b81c5a972693"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f97b8b81-db2f-48c9-a59a-b77f3495f8f7">
+                    <propertyInstance
+                      Id="a0996ec0-4398-43dc-9aa4-b0f52940c1ef"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="51a1366a-fd18-4b0d-977d-e47a0b6d4924"
+                  name="command"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="17d2ec0f-382b-4912-8c64-df7b9027ceff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=CompositeCommand Member=(Name=Add OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Command)]) ParameterIdentifier=command"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="956aaf8a-fa9b-4f6e-9b24-2f303bcc8fa1"
+                      LastKnownName="Command"
+                      LastKnownLocation="Package_1209.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="64f39767-6089-43ef-a6ac-d2560c8f3a58"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0bb8d4ae-fe14-48a5-8f92-0299a50fec43"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=CompositeCommand Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2347e869-c9ab-47cc-8143-4f44eb92c7e5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="faf890de-e927-46b3-b760-8f2c68ff7128">
+                    <propertyInstance
+                      Id="e476cd89-641f-4ccf-ba83-3a8443a6dd94"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="144fb708-4ace-4acf-b816-b1466894b6b2">
+                    <propertyInstance
+                      Id="5b75ee9a-120e-416c-98a8-302bc841af9e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="359c3f65-2fa3-45ab-a0fc-9631db147e6f">
+                    <propertyInstance
+                      Id="c9eaf706-6406-4375-a756-a54b9819e38c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c49ec514-5afd-4ce2-8fea-e6647a3b224b">
+                    <propertyInstance
+                      Id="f201ca23-5e8d-4f23-8d7d-1ccfe62b38d0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f6a9d4a-7329-485f-89fb-dee400126d44">
+                    <propertyInstance
+                      Id="702938b4-29ff-47c0-ab09-9f8b5cd93997"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="abf92beb-cab8-491b-8b9c-8fff60faa6c5"
+            name="CompositeCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f5a65e69-1377-4eb3-b4aa-63a28051a477"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=CompositeCommand Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b85d945c-c0ed-48f0-9deb-f788dbc51b97"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a336b6fa-dd4d-4611-8ea9-dfdfb3d6a3e4">
+                    <propertyInstance
+                      Id="5e7dc14c-29c4-45e6-a204-dd0728c1ad2f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1152c922-3932-4e71-b817-c3e67daf7672">
+                    <propertyInstance
+                      Id="f31de3c2-b4c3-45b8-8422-7390c7d7af8a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="880ea9ac-1da8-4135-a321-23b7857f35bf">
+                    <propertyInstance
+                      Id="0d7e8c13-8028-4709-a4a1-150804882f58"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38ccd300-085a-497a-8488-705afc990b8d">
+                    <propertyInstance
+                      Id="d576089c-b354-478a-a675-93b94a8a4105"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c6843f1-62eb-4ad8-8b0e-ccb3132c174b">
+                    <propertyInstance
+                      Id="a621d7f3-4f0a-45ad-890b-b721f2ad0cc5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="956aaf8a-fa9b-4f6e-9b24-2f303bcc8fa1"
+        name="Command"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="c705a881-09de-495b-b6ab-1d69ba5340b1"
+            handle="viewcode://./CodeSchema_Interface?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Command"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="abdddfa6-c64c-4035-ab3d-f1b5e9ccedcf"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8da49e55-34d3-4410-b075-35bd0e6a7c3f">
+                <propertyInstance
+                  Id="184a940b-82ce-4a33-993e-8fe779b72488"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d38c416b-1489-42f0-9a44-0993084a9840">
+                <propertyInstance
+                  Id="1e497a69-0e01-4799-ab06-32e2abc0feed"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4e603b6-0b09-4cc6-b7bf-82d4374315dd">
+                <propertyInstance
+                  Id="b94d9e93-1cb3-4677-b575-7d1a04234d86"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1f73e1db-af8b-42b5-86c9-978b57876a33">
+                <propertyInstance
+                  Id="ee5bcaaf-7cfb-4ec6-81ff-1ab67587d999"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="3791c6c9-606b-49e3-a2ce-b1eaaa9a2c42"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="24b9b8d4-afc4-49fc-9e6d-c1aad346ee0f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Command Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c8e1f87e-7902-4209-9734-609f2308a05f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bb8b70c-9752-483c-ba15-60e8cbf25c11">
+                    <propertyInstance
+                      Id="38129759-4789-4274-9646-48f193b8499e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4e4cf379-63ff-4585-af06-6d312f2a8b4e">
+                    <propertyInstance
+                      Id="9005e933-c6d1-4cb6-8a8c-5244fcd72e79"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40556ff4-e1f7-4a13-8f29-3e07864f8b14">
+                    <propertyInstance
+                      Id="c04a0c3f-a8b7-4b16-a528-607c29b9a20e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc5fa755-bd2d-41a0-91ef-e7caa8387815">
+                    <propertyInstance
+                      Id="e7a400b0-1926-467c-a894-ef6d7bd95543"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42ca6b3a-1f2d-404c-9999-0cbb342b4192">
+                    <propertyInstance
+                      Id="7d9c57c1-27f8-4665-a3f0-66d23c183aed"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9c899122-06f7-41ad-a0e4-0e23f72d1a3d"
+        name="WithBracketsCommand"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a95bd8dd-ad70-4f22-afb2-bc0eca9111d4"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithBracketsCommand"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7a13780c-369e-4c59-8869-7479bea5d129"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dc811a24-d201-45b7-863b-86b1b9aeff2c">
+                <propertyInstance
+                  Id="2a9e5b51-63ff-4afd-90d7-3eada2b3ef22"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5215b21-31c6-4ed7-a23d-40ece0a2737c">
+                <propertyInstance
+                  Id="0f65179e-521e-438a-a327-16cdca0e543b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ed6e1029-5342-40e1-9ea3-d36bab6789e5">
+                <propertyInstance
+                  Id="e481727d-70fe-45cb-9f19-a98c521f1db5"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7232f18c-bad8-46e6-8484-50b3dd427211">
+                <propertyInstance
+                  Id="e7850091-d313-46b3-9288-506ea92f1b77"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ac13d85e-27be-4c83-ba73-d261c3d3e88f">
+                <propertyInstance
+                  Id="4542e572-eca2-4a52-ae4b-564618393535"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="d2adde65-2157-4c04-919c-29891bc84131">
+            <interfaceMoniker
+              Id="956aaf8a-fa9b-4f6e-9b24-2f303bcc8fa1"
+              LastKnownName="Command"
+              LastKnownLocation="Package_1209.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="5fb3b46f-1d91-4258-af9d-7f47a61490a9"
+            name="input"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c90ed019-47ef-4d4d-809e-e05147808ef9"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithBracketsCommand Member=input"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b824d73a-7571-4448-a876-84631bd74806"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9be1510f-7e8f-44b6-9d27-c5fb01345bb8">
+                    <propertyInstance
+                      Id="6f76dbd6-ecda-4036-8556-4195cc0e05f8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52c62f5e-e0a9-4d4c-8687-fbbffbf27243">
+                    <propertyInstance
+                      Id="77ba0322-4606-47e3-b801-18e748445ec5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="227d1726-9616-4be1-9e05-1c452356fb0d">
+                    <propertyInstance
+                      Id="507801dc-d351-472a-8da7-e578ba890a8a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2df69bd3-fb85-4835-8b6b-b971b314b9db">
+                    <propertyInstance
+                      Id="aabde0f2-9ffe-4bc5-9a76-d409e568b593"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6df48256-901f-4086-97c9-631b72da81f7">
+                    <propertyInstance
+                      Id="8c7af7e4-d2ef-48df-9968-707ab9318a0c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="abf82228-5ac7-44ab-b640-007acad8f5c4"
+            name="WithBracketsCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fce1ea4d-52ea-4af9-a020-b3f6400ca7dc"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithBracketsCommand Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0331a6e2-9b44-4e87-884f-7c40fc73eb83"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c89ab0cf-7b20-4726-a8a7-1a1aee9b2fd0">
+                    <propertyInstance
+                      Id="d6ec3231-5e50-4508-8029-b18f1b243999"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85751bad-4cf1-46de-a796-acbd0c754e0d">
+                    <propertyInstance
+                      Id="48490e64-4da4-4381-8da5-d542c4c06ec7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3770b71-c761-4000-810a-fc7abbdec9c2">
+                    <propertyInstance
+                      Id="da2f905f-54d2-49d0-9248-97f3050b62d8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4b77531-64a0-4a85-841a-789cb940d565">
+                    <propertyInstance
+                      Id="c77fa27f-0d54-4a8e-a742-c2a58aed2786"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff6ef573-5a30-44b7-82a7-878a4a1bc27d">
+                    <propertyInstance
+                      Id="f6216be3-a2a5-43b0-b220-43b5a9f9975c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="19265c05-6d8f-418e-ac27-bdfe81387f61"
+                  name="input"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a25fe621-7468-4f2b-a942-d9f73a2615ed"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithBracketsCommand Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=input"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="91ebca7d-f75c-4ce1-a194-1b2dc77cf0cf"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="eb41e863-45ca-46ed-9cee-46c547b20eb6"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithBracketsCommand Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4be0c0ae-ee31-47d8-8ce8-422a8a361beb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5dc3353e-13e1-49c9-91b7-48a79f22f59f">
+                    <propertyInstance
+                      Id="23fb6b1c-ceff-4384-b631-da9ab0f0b533"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff890461-830b-4496-b955-9f12370fba8a">
+                    <propertyInstance
+                      Id="041c8b27-0f23-4c32-b9ee-4c552b0390aa"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d39ff36-1302-4ac0-b540-61a66eddcc7c">
+                    <propertyInstance
+                      Id="b022307c-fb1c-4332-871e-bf0cbcee804e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="62000b15-2ca8-48b0-abf6-ac3f0e58f643">
+                    <propertyInstance
+                      Id="435a3a97-e100-46c6-ae4d-91e77edd9ef9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb25dd29-9c92-4d5a-b04f-540751a4eab3">
+                    <propertyInstance
+                      Id="a44fd2c7-209a-4a3e-b910-2be8abba38a8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5ada8ed0-d44f-45ff-926b-d8cef9342355"
+        name="WithSpacesCommand"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="01dfda78-8190-47ac-8e90-a18efc767cb3"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithSpacesCommand"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c80c79c2-06ca-4863-a978-ff354a4cc2b5"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7844586-a27c-4421-9f16-4ae6ecbb5bcc">
+                <propertyInstance
+                  Id="a718bac0-93a9-474b-918b-ef245871e033"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ddeecb4d-641b-4e77-9582-3abd65da05f1">
+                <propertyInstance
+                  Id="61b44e1f-b087-4cd1-9ac4-59523cedc571"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="923b7b2d-5ec0-42bb-b61b-2235f6cc1bc6">
+                <propertyInstance
+                  Id="6ff94e90-49b4-4fa4-ae2d-038f4847cd0a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3c56f940-afc0-466e-8118-0883ce2d40cb">
+                <propertyInstance
+                  Id="791e3b9d-ffbc-4a1e-9736-1f03774c41e0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74f237c1-6dc3-4e4a-83bd-6386f014c8a7">
+                <propertyInstance
+                  Id="d5cbbd33-a604-4d81-b840-919172aa8248"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="2bb5c6b9-51be-4ff9-9eeb-9dcba259982a">
+            <interfaceMoniker
+              Id="956aaf8a-fa9b-4f6e-9b24-2f303bcc8fa1"
+              LastKnownName="Command"
+              LastKnownLocation="Package_1209.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="8c6a2d7f-54e0-48bb-b4ac-6245282b76f7"
+            name="input"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f14ded89-f457-4961-9ca7-7add3c0d8161"
+                handle="viewcode://./CodeSchema_Field?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithSpacesCommand Member=input"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b21e01f4-e7c9-4683-92bb-c6ced4752e58"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6619708-03b4-40f2-aa9a-511464e1360e">
+                    <propertyInstance
+                      Id="5adbaa50-dc5c-4582-bed1-e51bda3ad181"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da33e0b7-859e-4adc-bdfb-d8fbabbaa3b9">
+                    <propertyInstance
+                      Id="40f58ad6-6e20-4592-96be-b48e19ff2f56"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbd9b82c-30ae-4e6b-be6e-b3f1d7b4ee79">
+                    <propertyInstance
+                      Id="553e5c64-70ed-4c98-893b-32fd10c693a9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="698f3c69-6d80-46ea-b99e-0aeac14398b2">
+                    <propertyInstance
+                      Id="1981d402-835b-4388-a1a9-2dc7e0c8f5d1"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae09b9bc-08ec-41e3-8f2a-45e750ce6865">
+                    <propertyInstance
+                      Id="ef9816cb-0bec-4698-96a7-9fd5a939bbf7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProject.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="420dfadb-90b8-4adf-92da-3cb6a4f60ac8"
+            name="WithSpacesCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dc30cb1a-1fad-4590-9a32-a90fe340afe3"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithSpacesCommand Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3081ac20-fc8e-4e19-a815-6275c3636ba4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b2ce027-9f47-48f3-aa37-583151e2942a">
+                    <propertyInstance
+                      Id="6dca6762-8896-4092-a836-2e0b7d97af0e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="500f2950-8202-4a4a-853b-360e036f5e6d">
+                    <propertyInstance
+                      Id="9de10356-e419-4828-9277-133fa02de5c0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dae067bc-88e1-487d-b435-301e6a4f0d01">
+                    <propertyInstance
+                      Id="01ff04f7-b1b2-44b5-911e-872f80a69d7e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6954df7f-7ba6-4359-9bcd-17da653eaaaf">
+                    <propertyInstance
+                      Id="5a168b00-6343-4d04-bd80-f5c5590b7b45"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eadb3f23-aa21-44e1-a2d6-a59173ec31fc">
+                    <propertyInstance
+                      Id="5517e9ac-0bf5-440e-ac9a-d60e461fbf5d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f7fc0cf2-b0d1-4a3a-9b04-ccd7045915b6"
+                  name="input"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="437e3a74-a938-4cac-a822-4bd44df9db5a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithSpacesCommand Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=String)]) ParameterIdentifier=input"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5bb909aa-29d1-4308-93b3-6136eccc575d"
+            name="Execute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="52928d73-7045-4a7f-9f26-431824820b9f"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=WithSpacesCommand Member=Execute"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0131ed1-c986-4b94-ba50-23006203f243"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bef6b4c-61cd-41c0-a36e-3fee97c8b591">
+                    <propertyInstance
+                      Id="14179888-2921-4258-a48d-989868062da5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f237de4-39e3-4d4d-bee4-8ef57bc901e1">
+                    <propertyInstance
+                      Id="f293a704-f544-4cc1-bdee-75e3f5f10419"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff67c4c3-4115-4c68-983a-1067efdd0476">
+                    <propertyInstance
+                      Id="77d7b2b0-085b-432a-be83-42da513b5058"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1947a929-3b41-4882-8a57-3a084189dab8">
+                    <propertyInstance
+                      Id="7febf7c9-062a-4f2d-90dc-d1fe5a88f9f0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a13a3942-1e47-4951-bfed-923fbe62cefb">
+                    <propertyInstance
+                      Id="1d9b161d-9736-4432-866b-803f10d2bb95"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="83a75b3f-42fe-4660-a797-cc9780febcf1"
+        name="Program"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="267f30cf-14f4-4dfd-b887-2a83e12ea082"
+            handle="viewcode://./CodeSchema_Class?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Program"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="19c01cd0-81ad-4844-9640-058437c72cc4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8099a7e0-b568-4a8b-b7e2-b152b418b358">
+                <propertyInstance
+                  Id="93c84d93-39bd-4efc-842b-96ea5226f355"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="18b89362-109f-470b-b975-23abc959851d">
+                <propertyInstance
+                  Id="320d7b03-4bb4-4d61-868a-2b5f76ef4120"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e7946c7-2ab2-48cf-b9fe-033577cf4ff1">
+                <propertyInstance
+                  Id="12e79652-9ad3-47d4-ba3d-d25dd225dc68"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8afaa7cf-3d52-4388-8042-a00b92186993">
+                <propertyInstance
+                  Id="c3cc33ad-5f52-4a7e-9fa2-5230770ffed6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f54aa86e-cd50-429a-846b-32641e035dab">
+                <propertyInstance
+                  Id="6fae7b89-2766-434a-809e-ca744e2e44db"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c028aaa4-af92-47a1-aa00-b4fcf39846a0"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="98a0f6a1-0156-4618-a103-06754ede5607"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Program Member=(Name=Main OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46440028-5a83-45d9-845f-07160ae792cd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="584abfad-ca39-429d-bd99-f30ba99e1eb3">
+                    <propertyInstance
+                      Id="be9ac014-41fe-4931-a383-a9f2316b01d8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43061f9b-96b1-4826-a8fa-68afdd6319bd">
+                    <propertyInstance
+                      Id="29773850-4a14-4dd7-9458-de7bd1835da7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="466f4e58-e650-4dad-a26e-ba9c5167aed2">
+                    <propertyInstance
+                      Id="629fa455-efab-4f86-b891-4154e10f5cd3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cc0542d-9aa2-464d-82aa-2a0d3ab172e0">
+                    <propertyInstance
+                      Id="4de226b9-c99e-4726-941d-37a849290815"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d9e34417-a948-48b0-889a-d04cfa058536">
+                    <propertyInstance
+                      Id="7b650c41-484b-4e33-9054-bbc5af2af2b0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="924dfc95-beb8-4f75-8d47-b80c95b2b74a"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="7fda3b36-c152-4e77-876e-07f90dc0e8bd"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Program Member=(Name=Main OverloadingParameters=[(Assembly=&quot;file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/.NETFramework/v4.0/Profile/Client/mscorlib.dll&quot; Namespace=System Type=(Name=String ArrayRank=1 ParentType=String))]) ParameterIdentifier=args"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5e7fc652-0df4-4ceb-902f-f478d2e12afd"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2fbbc8c2-788d-489c-8121-2fae05338c6c"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ef1ca176-58a5-42cb-800d-a81422607b81"
+            name="WriteSomething"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ff1b5923-2f16-4121-a3b9-9771e6fdb478"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Program Member=(Name=WriteSomething OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Command)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="53836516-c471-480e-ab56-22ad30333e58"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1de8f4dd-a899-4d75-bbce-cb5f14257bf3">
+                    <propertyInstance
+                      Id="cb2a2198-6832-474e-999f-fbd0bef0af73"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5dd082e-6ada-4f95-a372-304dcc487484">
+                    <propertyInstance
+                      Id="3bd7ecce-7197-4f1b-979e-f5105b30a0ce"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83c7b4cd-36fb-4338-bd3e-16c8a3ca618c">
+                    <propertyInstance
+                      Id="49327182-a86b-4c8f-9399-502521c547a1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0739e21b-9b6d-4b26-983d-a2d48863cbfd">
+                    <propertyInstance
+                      Id="dfb50714-9a31-4869-880a-3666376d1731"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4b375d3-c8d1-498b-9f6c-080d1f099cc5">
+                    <propertyInstance
+                      Id="bf40117d-266d-48ff-9255-968747214b16"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0fbed8ce-300e-4640-a3d2-a8f5c99e97e0"
+                  name="HowToWrite"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f61369c5-1159-498f-bf15-6955f7d92618"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Program Member=(Name=WriteSomething OverloadingParameters=[(Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Command)]) ParameterIdentifier=HowToWrite"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="956aaf8a-fa9b-4f6e-9b24-2f303bcc8fa1"
+                      LastKnownName="Command"
+                      LastKnownLocation="Package_1209.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f26d40d0-b56c-4f26-9faf-eff22c5d2833"
+            name="Program"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="852c5c5f-a80e-4a21-a870-6a5aa0e66368"
+                handle="viewcode://./CodeSchema_Method?Assembly=&quot;file:///c:/users/anderthe/documents/visual studio 2010/Projects/DelegateVsInterface/3_A_Composite_Command/bin/Debug/3_A_Composite_Command.exe&quot; Namespace=_3_A_Composite_Command Type=Program Member=.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c2afce23-4b85-4b40-ad78-016102c74d22"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45600e49-4b3b-40e6-9c86-a76fb1078b58">
+                    <propertyInstance
+                      Id="9669c8ca-09f2-47fb-a56e-c3f31dbffed1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f314495d-fbf6-437f-8d53-a30cffc9b3f6">
+                    <propertyInstance
+                      Id="cb546d60-b195-4400-9549-9b2b32ed31ad"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46008303-93bb-4017-8d21-4e0219f24ee1">
+                    <propertyInstance
+                      Id="135d6530-e1ac-489e-b7d1-10881574afb6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56a0a149-a584-4889-a222-37c333ee1b2c">
+                    <propertyInstance
+                      Id="6e03c826-7278-4706-bd15-7e78df920947"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6742ff30-3dfe-4e6f-902b-8cdfb1c16677">
+                    <propertyInstance
+                      Id="e343a11d-4df6-48c9-b11a-cddefd166469"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

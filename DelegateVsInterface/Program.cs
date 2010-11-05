@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DelegateVsInterface
+namespace _2_A_Delegate_Command
 {
     /*
      * A Command in c# can a bit easier be represented as a delegate. 

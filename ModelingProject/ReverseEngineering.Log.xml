@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Anderthe/AppData/Local/Microsoft/VisualStudio/10.0/Extensions/Microsoft/Visualization and Modeling Feature Pack/1.0/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log">
+  <Message Timestamp="2010-11-05T12:11:47" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event' -  (Package)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Command' -  (Class)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Command::Invoke' -  (Operation)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Command::Invoke::input' -  (Parameter)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program' -  (Class)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::commandEvent' -  (Property)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::Main' -  (Operation)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::Main::args' -  (Parameter)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::Program' -  (Operation)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::WithBracketsCommand' -  (Operation)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::WithBracketsCommand::input' -  (Parameter)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::WithSpacesCommand' -  (Operation)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject::_4_CompositeCommand_Is_An_Event::Program::WithSpacesCommand::input' -  (Parameter)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="High" Text="(2) type(s) fully reverse engineered." />
+  <Message Timestamp="2010-11-05T12:11:48" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+</Log>

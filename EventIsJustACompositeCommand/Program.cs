@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EventIsJustACompositeCommand
+namespace _4_CompositeCommand_Is_An_Event
 {
     /*
      * The c# event is acrually just an implementation of the Composite Command pattern
